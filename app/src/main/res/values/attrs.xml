@@ -5,4 +5,10 @@
         <attr name="aiv_borderWidth" format="dimension" />
         <attr name="aiv_initials" format="string" />
     </declare-styleable>
+
+    <declare-styleable name="AvatarImageViewShader">
+        <attr name="aivs_borderColor" format="color"/>
+        <attr name="aivs_borderWidth" format="dimension" />
+        <attr name="aivs_initials" format="string" />
+    </declare-styleable>
 </resources>
