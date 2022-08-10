@@ -11,4 +11,10 @@
         <attr name="aivs_borderWidth" format="dimension" />
         <attr name="aivs_initials" format="string" />
     </declare-styleable>
+
+    <declare-styleable name="AvatarImageView">
+        <attr name="aivf_borderColor" format="color"/>
+        <attr name="aivf_borderWidth" format="dimension" />
+        <attr name="aivf_initials" format="string" />
+    </declare-styleable>
 </resources>

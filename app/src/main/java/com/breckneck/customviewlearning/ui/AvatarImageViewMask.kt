@@ -48,6 +48,7 @@ class AvatarImageViewMask @JvmOverloads constructor(
 
             borderColor = ta.getColor(R.styleable.AvatarImageViewMask_aiv_borderColor, DEFAULT_BORDER_COLOR)
             initials = ta.getString(R.styleable.AvatarImageViewMask_aiv_initials) ?: "??"
+            ta.recycle()
         }
 
         scaleType = ScaleType.CENTER_CROP

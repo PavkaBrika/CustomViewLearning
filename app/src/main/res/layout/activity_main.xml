@@ -8,18 +8,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     android:gravity="center">
-
-    <com.breckneck.customviewlearning.ui.AvatarImageViewMask
+        
+    <com.breckneck.customviewlearning.ui.AvatarImageView
+        android:id="@+id/avatar"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:src="@drawable/apppic"/>
-
-    <com.breckneck.customviewlearning.ui.AvatarImageViewShader
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/apppic"/>
-
-
+        android:src="@drawable/apppic"
+        app:aivf_initials="JS"/>
 
     <TextView
         android:layout_width="wrap_content"

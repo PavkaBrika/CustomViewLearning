@@ -45,6 +45,7 @@ class AvatarImageViewShader @JvmOverloads constructor(
 
             borderColor = ta.getColor(R.styleable.AvatarImageViewShader_aivs_borderColor, DEFAULT_BORDER_COLOR)
             initials = ta.getString(R.styleable.AvatarImageViewShader_aivs_initials) ?: "??"
+            ta.recycle()
         }
 
         scaleType = ScaleType.CENTER_CROP
