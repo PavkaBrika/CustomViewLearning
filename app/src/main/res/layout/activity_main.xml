@@ -9,10 +9,18 @@
     tools:context=".MainActivity"
     android:gravity="center">
 
-    <com.breckneck.customviewlearning.ui.AvatarImageViewMask
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/apppic"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.breckneck.customviewlearning.ui.AvatarImageViewMask
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/apppic"/>
+
+    </HorizontalScrollView>
+
+
 
     <TextView
         android:layout_width="wrap_content"
