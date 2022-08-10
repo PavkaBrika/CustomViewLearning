@@ -16,11 +16,6 @@ class AvatarImageViewMask @JvmOverloads constructor(
         private const val DEFAULT_SIZE = 40
     }
 
-    override fun onAttachedToWindow() {
-        super.onAttachedToWindow()
-        Log.e("TAG", "onAttachedToWindow")
-    }
-
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec)
         Log.e("TAG", "onMeasure width: ${MeasureSpec.toString(widthMeasureSpec)}, " +
@@ -43,11 +38,6 @@ class AvatarImageViewMask @JvmOverloads constructor(
     override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
         super.onSizeChanged(w, h, oldw, oldh)
         Log.e("TAG", "onSizeChanged")
-    }
-
-    override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bottom: Int) {
-        super.onLayout(changed, left, top, right, bottom)
-        Log.e("TAG", "onLayout")
     }
 
     override fun onDraw(canvas: Canvas?) {
